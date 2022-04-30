@@ -1,0 +1,26 @@
+.leftmenu{
+    position: absolute;
+    left: 5px;
+    top:5px;
+}
+
+::ng-deep .layerButtonClass {
+    min-width:0.5vw !important;
+    background-color: #333333;
+    color:white;
+}
+
+button.mat-menu-item{
+    color: white;
+}
+
+button.mat-menu-item:hover {
+    background-color: white;
+    color: #333333 !important;
+    .layerIcon{
+        color:#333333
+    }
+}
+.layerIcon{
+    color:white
+}

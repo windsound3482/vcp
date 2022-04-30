@@ -3,19 +3,22 @@ import {FormGroup, FormControl} from '@angular/forms';
 
 
 @Component({
-  selector: 'app-map-page',
-  templateUrl: './map-page.component.html',
-  styleUrls: ['./map-page.component.scss']
+  selector: 'app-gridlist',
+  templateUrl: './gridlist.component.html',
+  styleUrls: ['./gridlist.component.scss']
 })
-export class MapPageComponent implements OnInit {
-
+export class GridlistComponent implements OnInit {
+ 
   constructor() { }
 
   ngOnInit(): void {
   }
+
   range = new FormGroup({
     start: new FormControl(),
     end: new FormControl(),
   });
 
 }
+
+
